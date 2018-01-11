@@ -1,6 +1,7 @@
 <template>
   <div id= "demo1">
     <div v-html= 'msg'></div>
+    <p>使用v-html指令用于输出HTML代码</p>
   </div>
 </template>
 
