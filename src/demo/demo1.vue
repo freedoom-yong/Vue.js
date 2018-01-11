@@ -1,3 +1,4 @@
+//使用v-html指令用于输出HTML代码
 <template>
   <div id= "demo1">
     <div v-html= 'msg'></div>
