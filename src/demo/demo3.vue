@@ -1,3 +1,4 @@
+//使用v-bind指令绑定class，class里设有二元表达式来设置样式背景颜色
 <template>
   <div id="demo3">
     <label for="r1">修改颜色</label><input type="checkbox" v-model="class1" id="r1"/>
