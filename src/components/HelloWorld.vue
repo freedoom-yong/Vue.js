@@ -4,17 +4,17 @@
     <h2>你好,世界</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a v-bind:href="url" target="_blank">文本输出</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
+      <li><a v-bind:href="url0" target="_blank">双向数据绑定</a></li>
+      <li><a v-bind:href="url1" target="_blank">vue指令</a></li>
+      <li><a v-bind:href="url2" target="_blank">表达式</a></li>
       <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
+      <li><a v-bind:href="url3" target="_blank">属性应用</a></li>
     </ul>
     <h2>welcome to you</h2>
     <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
+      <li><a v-bind:href="url4" target="_blank">隐藏字段</a></li>
+      <li><a v-bind:href="url5" target="_blank">反转字符串</a></li>
+      <li><a :href="url6" target="_blank">过滤器</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
   </div>
@@ -26,7 +26,13 @@ export default {
   data () {
     return {
       msg: '欢迎来到Vue.js世界！',
-      url: '#demo'
+      url0: '#demo',
+      url1: '#demo1',
+      url2: '#demo2',
+      url3: '#demo3',
+      url4: '#demo4',
+      url5: '#demo5',
+      url6: '#demo6'
     }
   }
 }
@@ -46,6 +52,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #383bff;
+  color: #b42d30;
 }
 </style>
