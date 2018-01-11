@@ -4,6 +4,7 @@
   </div>
 </template>
 
+//javascript代码
 <script>
   export default({
     name: 'demo1',
