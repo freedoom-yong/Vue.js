@@ -1,4 +1,4 @@
-//过滤器应用
+//过滤器应用:将第一个小写字母过滤后成大写字母
 <template>
   <div id="demo6">
     {{ message | capitalize }}<br/>
